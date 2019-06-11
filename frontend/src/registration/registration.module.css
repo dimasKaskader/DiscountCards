@@ -1,0 +1,192 @@
+.background
+{
+    position: absolute;
+    /*background: linear-gradient(0deg, rgba(0, 255, 0, .2), rgba(0, 85, 255,0.2)), url(/RegistrationFon.jpg); */
+    /*background: linear-gradient(0deg, rgba(204, 105, 39, 0.3), rgba(0, 85, 255,0.3)), url(/308943842556095.jpg);*/
+    /* background: linear-gradient(0deg, rgba(204, 105, 39, 0.3), rgba(128, 255, 128,0.3)), url(dYoalTfRanQ.png); */
+
+    /* background: linear-gradient(0deg, rgba(204, 105, 39, 0.3), rgba(128, 255, 128,0.3)); */
+    background-position:center; 
+    background-size: cover;
+    height: 100%;
+    width: calc(100% - 340px);
+    bottom: 12px;
+}
+/* label
+{
+    font-size: 375%;
+    width: 23.915%;
+    margin-bottom: 15px;
+} */
+.form :not(:nth-child(2))
+{
+    border-top:0px; 
+}
+.form .border
+{
+    border-radius:7px 7px 7px 7px; 
+    border-top:2px solid rgb(255,255,255); 
+}
+.form input[name="email"]
+{
+    border-radius:7px 7px 0 0; 
+}
+.form input[name="password2"]
+{
+    border-radius:0 0 7px 7px; 
+}
+.form *:focus
+{
+    outline: none;
+    background-color: rgb(230, 242, 255);
+}
+.form
+{
+    position: absolute;
+    /*background-color: rgba(201, 136, 214,0.1); /*rgba(200, 53, 229,0.7) прозрачность */
+    left: 0;
+    height: 300px;
+    right: 0;
+    top:25%;
+    bottom: 0;
+    width: 600px;
+    margin:0 auto;
+    text-align: center;
+    
+}
+.form input, .button, .confirmBody
+{
+    left:15%;
+    /*left: 20px;*/
+    background-color: rgba(255,255,255,0.8);
+    position: relative;
+    float: left;
+    width: 380px;
+    height: 40px;
+    font-size: 15px;
+    padding-left:15px; 
+    padding-right:35px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.border
+{
+    left:15%;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid rgb(255,255,255);
+    border-radius:7px 7px 7px 7px; 
+    margin: 15px auto;
+    height: 45px;
+    width: 432px;
+}
+.form input[name="register"], .button
+{ 
+    left: 0;
+    width: 432px;
+    height: 40px;
+    border-radius:7px 7px 7px 7px; 
+    color: #fff;
+    line-height:10px;
+    font-size: 120%;
+    padding: 0px;
+    font-weight: 600;
+    border: none;
+    /*border: 2px solid rgb(255,255,255);
+    border-radius:7px 7px 7px 7px; */
+    background-color: rgba(0,0,0,0.0);
+    cursor: pointer;
+}
+.border::before{
+    transition: left .2s linear;
+    opacity: 0;
+    content: '';
+    position: absolute;
+    border-radius:4px 4px 4px 4px; 
+    top: 4px; left: 4px; bottom: 4px; right: 4px;
+    border: 1px solid rgb(255,255,255);
+}
+.border:hover::before
+{
+    transition-duration: .2s;
+    opacity: 100;
+}
+.border:hover
+{  
+    background-color:rgba(230, 242, 255,0.2);
+    /*background-color: rgb(14, 201, 60);*/
+}
+.error
+{   
+    right: 78px;
+    position: relative;
+    float: right;
+    width: 43px;
+    height: 43px;
+}
+.error::before
+{
+    content: '❗';
+    display: block;
+    position: absolute;
+    top: 22%; left: 4px; bottom: 4px; right: 4px;
+}
+.error::after
+{
+    /* opacity: 0; */
+    width: 0px;
+    /* content: attr(data-title); */
+    display: block;
+    background-color: rgba(255, 102, 102,0.8);
+    color: white;
+    line-height: 35px;
+    /* width: 225px; */
+    height: 35px;
+    position: absolute;
+    top: 13%; left: 45px; bottom: 4px; right: 4px;
+    transition: 3s linear;
+}
+.error:hover::after
+{
+    width: 255px;
+    content: attr(data-title);
+    /* opacity: 100; */
+}
+
+
+
+.confirmBody
+{
+    left:15%;
+    height: 285px;
+    font-size: 23.2px;
+    color:rgba(89, 89, 89, 0.7);
+    border-radius:7px 7px 7px 7px;
+    padding: 25px 20px 25px 20px; 
+    padding-right: 15px;
+    padding-top: 25px;
+    width: 395px; 
+    line-height: 1.7;
+
+}
+.confPass-conteiner
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+}
+.confPass
+{
+    padding: 7px;
+    background-color: rgba(0,0,0,0.08);
+    font-size: 45px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgba(0,0,0,0.7);
+    width: 128px;
+    text-align: center;
+}
+.confPass:focus
+{
+    background-color: rgb(230, 242, 255);
+}

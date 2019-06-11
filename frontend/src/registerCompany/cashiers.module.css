@@ -1,0 +1,111 @@
+.addCashier
+{
+    /* border: 1px solid rgba(0,0,0,0.3); */
+    
+    border-radius: 7px 7px 7px 7px;
+    height: 40px;
+    width: 185px;
+    /* background-color: white; */
+    background-color: rgba(255,255,255,0.7);
+    line-height: 40px;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 10px;
+    padding: 2px;
+}
+.cashier_conteiner
+{
+    padding-top: 25px; 
+    color: rgb(108, 108, 108);
+    position: relative;
+    height: calc( 100% - 95px);
+    width: calc(100% - 340px);
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+.addImg
+{
+    float: left;
+    margin-top: 7.5px;
+    margin-left: 7.5px;
+    margin-right: 10px;
+	height: 25px;
+	width: 25px;
+	transition: all 0.1s
+}
+
+.cashier
+{
+    margin-bottom: 10px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0,0.3);
+    line-height: 52px;
+    text-align: left;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+    /* font-size: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    outline: none;
+    border: 1px solid rgba(88, 88, 88, 0.0);
+    background-color: rgba(255,255,255,0.7);
+    color: rgb(88, 88, 88);
+    /* border: 1px solid rgba(0,0,0,0.3); */
+}
+
+.phone
+{
+    margin-left: 25px;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 7px 7px 7px 7px;
+    /* font-size: 15px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+    outline: none;
+    border: 1px solid rgba(88, 88, 88, 0.0);
+    background-color: rgba(219,219, 219,0.4);
+    color: rgb(88, 88, 88);
+    /* border: 1px solid rgba(0,0,0,0.3); */
+}
+
+.name
+{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.notConfirmed
+{
+    color: red;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.deleteImg
+{
+    width: 20px;
+    height: 20px;
+    right: 15px;
+    margin: 15px auto;
+    cursor: pointer;
+    position: absolute;
+}
+
+.depUl
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 52px;
+}

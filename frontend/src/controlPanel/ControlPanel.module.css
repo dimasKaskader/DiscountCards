@@ -1,0 +1,162 @@
+@media screen and (max-width: 898px) {
+    .conteiner 
+    {
+        /* background-color: rgba(255,255,255,0.5);
+        width: 240px;
+        height: calc(100% - 60px);
+        position: relative;
+        bottom: 25px;
+        float: right;
+        z-index: 15;
+        padding-top: 15px; */
+        background-color: rgba(255,255,255,0.5);
+        width: 340px;
+        height: calc(100% - 60px);
+        position: fixed;
+        bottom: 0px;
+        float: right;
+        right: 15px;
+        /* z-index: 15; */
+        display: block;
+        padding-bottom: 15px;
+    }
+  }
+  @media screen and (min-width: 898px) {
+    .conteiner 
+    {
+        /* background-color: rgba(255,255,255,0.5);
+        width: 340px;
+        height: calc(100% - 60px);
+        position: relative;
+        bottom: 25px;
+        float: right;
+        z-index: 15;
+        padding-top: 15px; */
+
+        background-color: rgba(255,255,255,0.5);
+        width: 340px;
+        height: calc(100% - 60px);
+        position: fixed;
+        bottom: 0px;
+        float: right;
+        right: 15px;
+        /* z-index: 15; */
+        display: block;
+        padding-bottom: 15px;
+    }
+  }
+/* .conteiner 
+{
+    background-color: rgba(255,255,255,0.5);
+    width: 340px;
+    height: calc(100% - 60px);
+    position: relative;
+    bottom: 25px;
+    float: right;
+    z-index: 15;
+    padding-top: 15px;
+} */
+.controll_Button
+{
+    /* padding: 15px; */
+    height: 50px;
+    line-height: 50px;
+    margin: 5px 15px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    font-size: 19px;
+}
+.controll_Button a
+{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.auth:hover
+{
+    background-color: rgb(223, 223, 223);
+}
+.auth a
+{
+    color: rgb(123, 123, 123)
+}
+.reg
+{
+    /* margin: 5px auto; */
+    /* width: 220px; */
+    background-color: rgb(112, 184, 111);
+}
+.reg:hover, .logout a:hover
+{
+    background-color: rgb(94, 162, 94);
+}
+.reg a
+{
+    border-radius: 5px 5px 5px 5px;
+    color: rgb(241, 241, 241)
+}
+.logout
+{
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100px;
+}
+.logout a
+{
+    cursor: pointer;
+}
+
+.usersContol
+{
+    padding: 0;
+    list-style-type: none;
+}
+
+.usersContol a
+{
+    color: rgb(108, 108, 108);
+    display: block;
+    width: 100%;
+    height: calc( 100% + 10px);
+    margin: -10px -0px -0px -45px;
+    line-height: 40px;
+    padding-left: 45px;
+    text-decoration: none;
+}
+.usersContol li
+{
+    color: rgb(108, 108, 108);
+    margin-bottom: 5px;
+    padding: 10px 0px 0px 45px; 
+    display: block;
+    height: auto;
+    min-height: 30px;
+    /* height: 30px; */
+    font-size: 18px;
+}
+.usersContol a
+{
+    cursor: pointer;
+}
+.usersContol a:not(.push):hover
+{
+    background-color: rgba(159, 220, 158, 0.5)
+}
+.usersContol li li
+{
+    cursor: pointer;
+    margin-top: 5px;
+}
+.usersContol li li:not(.push):hover
+{
+    background-color: rgba(159, 220, 158, 0.5)
+}
+.push
+{
+    background-color: rgb(159, 220, 158) 
+}
+.company_cont{
+    display: none;
+}

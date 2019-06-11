@@ -1,0 +1,9 @@
+.conteiner
+{
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 7px 7px 7px 7px;
+    justify-content: center;
+    left: 15px;
+    width: 620px;
+    margin-bottom: 25px;
+}

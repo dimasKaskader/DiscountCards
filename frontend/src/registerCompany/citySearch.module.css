@@ -1,0 +1,33 @@
+.dropdown_ul
+{
+    border: 1px solid rgba(0,0,0,0.3);
+	transition: .4s;
+    height: auto;
+    max-height: 150px;
+    overflow: auto;
+	z-index: 90;
+	width: 430px;
+	position: absolute;
+    top: 103px;
+    left: -1px;
+	padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: black;
+}
+
+.dropdown_ul li
+{
+    width: auto;
+	background-color: white;
+	cursor: pointer;
+	border-top:none;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+}
+
+.dropdown_ul li:hover
+{
+	background-color: #eeeeee;
+}

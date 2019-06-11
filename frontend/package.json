@@ -1,0 +1,36 @@
+{
+  "name": "best-price",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:8000",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.6",
+    "d3": "^5.9.1",
+    "react": "^16.8.3",
+    "react-d3": "^0.4.0",
+    "react-dom": "^16.8.3",
+    "react-google-charts": "^3.0.11",
+    "react-redux": "6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "2.1.5",
+    "redux": "4.0.1",
+    "victory": "^32.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

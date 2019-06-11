@@ -1,0 +1,52 @@
+.header h1 
+{
+    margin: 0;
+    position: absolute;
+    font-size: 65px;
+    font-weight: 900;
+    bottom: -11.5px;
+    left: 120px;
+    color: black;
+    background: linear-gradient(to top, rgb(112, 183, 110) 40%, rgb(244, 244, 244) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:block
+}
+@-moz-document url-prefix() {
+    .header h1 
+{
+    position: absolute;
+    font-size: 65px;
+    font-weight: 900;
+    margin-bottom: 5.5px;
+    left: 120px;
+    color: black;
+    background: linear-gradient(to top, rgb(112, 183, 110) 40%, rgb(233, 233, 233) 30%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:block
+}
+}
+.header a
+{
+    text-decoration: none;
+}
+
+.header a :focus
+{
+    text-decoration: none;
+    outline: none;
+}
+.header 
+{
+    position: relative;
+    height: 70px;
+    z-index: 15;
+}
+.green_header
+{
+    height: 45px;
+    /* position: absolute; */
+    background-color: rgb(112, 184, 111);
+}
+

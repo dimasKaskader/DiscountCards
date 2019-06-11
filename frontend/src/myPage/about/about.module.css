@@ -1,0 +1,11 @@
+.conteiner {
+    width: 700px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-left: 57px;  
+    flex-basis: 700px;
+}
+.conteiner p
+{
+    font-size: 25px;
+}

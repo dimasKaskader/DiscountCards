@@ -1,0 +1,43 @@
+.graf_conteiner svg
+{
+    display: inline-block;
+}
+.graf_conteiner svg path
+{
+    cursor: pointer;
+}
+.graf_conteiner svg path:hover
+{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.graf_conteiner
+{
+    margin: 0 auto;
+    width: 700px;
+    flex-basis: 700px;
+    min-width: 700px;
+}
+.graf_conteiner svg g text:not(:first-child )
+{
+    display: none;
+}
+.block text
+{
+    cursor: default;
+}
+.block label
+{
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    padding-left: 48px;
+}
+.block 
+{
+    float: left;
+    flex-shrink: 2;
+    width: 310px;
+}
